@@ -1,0 +1,54 @@
+    /* Simple reset */
+    body
+     {
+          height:100%;
+           margin:0;
+            font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial;
+             background: linear-gradient(180deg,#87CEEB,#B0E0E6);
+     }
+
+    #gameWrap
+     {
+          display:flex;
+           align-items:center;
+            justify-content:center;
+             height:100%;
+     }
+    canvas
+     {
+          background: transparent;
+          box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+           border-radius:8px;
+     }
+
+    .ui 
+    {
+         position: absolute;
+          left:16px; top:16px;
+           color:#013;
+            font-weight:600;
+     }
+    .controls
+     {
+          position: absolute;
+           right:16px;
+            top:16px;
+             color:#013;
+     }
+    .hint
+     {
+          position: absolute;
+           left:50%;
+            transform:translateX(-50%);
+             bottom:18px;
+              color:#013;
+               opacity:0.9
+    }
+    button
+     {
+          font-weight:600;
+           padding:6px 10px;
+            border-radius:6px;
+             border:none;
+              cursor: pointer
+     }
